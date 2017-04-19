@@ -1,0 +1,5 @@
+﻿  PlyFile.cpp
+  Util.cpp
+d:\github\shapesph\util\CmdLineParser.inl(243): warning C4474: 'sscanf' : too many arguments passed for format string
+  d:\github\shapesph\util\CmdLineParser.inl(243): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+  Util.vcxproj -> D:\github\ShapeSPH\x64\Release\Util.lib

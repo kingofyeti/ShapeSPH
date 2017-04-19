@@ -1,0 +1,11 @@
+﻿  cospmls.cpp
+  FST_semi_fly.cpp
+  FST_semi_memo.cpp
+  makeweights.cpp
+  naive_synthesis.cpp
+  pmls.cpp
+  primitive.cpp
+  seminaive.cpp
+FST_semi_fly.obj : warning LNK4006: "void __cdecl TransMult(double *,double *,double *,double *,double *,double *,int)" (?TransMult@@YAXPEAN00000H@Z) already defined in FST_semi_memo.obj; second definition ignored
+FST_semi_fly.obj : warning LNK4006: "int __cdecl seanindex(int,int,int)" (?seanindex@@YAHHHH@Z) already defined in FST_semi_memo.obj; second definition ignored
+  S2Kit1.0.vcxproj -> D:\github\ShapeSPH\x64\Release\S2Kit1.0.lib

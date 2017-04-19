@@ -1,0 +1,8 @@
+﻿  ShapeAlign.cpp
+d:\github\shapesph\util\CmdLineParser.inl(243): warning C4474: 'sscanf' : too many arguments passed for format string
+  d:\github\shapesph\util\CmdLineParser.inl(243): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+  Generating code
+  All 1505 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ShapeAlign.vcxproj -> D:\github\ShapeSPH\x64\Release\ShapeAlign.exe
+  ShapeAlign.vcxproj -> D:\github\ShapeSPH\x64\Release\ShapeAlign.pdb (Full PDB)

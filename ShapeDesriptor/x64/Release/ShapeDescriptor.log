@@ -1,0 +1,28 @@
+﻿  ShapeDescriptor.cpp
+d:\github\shapesph\util\CmdLineParser.inl(243): warning C4474: 'sscanf' : too many arguments passed for format string
+  d:\github\shapesph\util\CmdLineParser.inl(243): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+D:\github\ShapeSPH\Util/Signature.h(105): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  D:\github\ShapeSPH\Util/Signature.h(105): note: consider using '%zd' in the format string
+  D:\github\ShapeSPH\Util/Signature.h(98): note: while compiling class template member function 'bool Signature<Real>::write(const char *,bool) const'
+          with
+          [
+              Real=double
+          ]
+  ShapeDescriptor.cpp(156): note: see reference to function template instantiation 'bool Signature<Real>::write(const char *,bool) const' being compiled
+          with
+          [
+              Real=double
+          ]
+  ShapeDescriptor.cpp(132): note: see reference to class template instantiation 'Signature<Real>' being compiled
+          with
+          [
+              Real=double
+          ]
+  ShapeDescriptor.cpp(175): note: see reference to function template instantiation 'int run<double>(void)' being compiled
+D:\github\ShapeSPH\Util/Signature.h(108): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  D:\github\ShapeSPH\Util/Signature.h(108): note: consider using '%zd' in the format string
+  Generating code
+  All 1496 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ShapeDescriptor.vcxproj -> D:\github\ShapeSPH\x64\Release\ShapeDescriptor.exe
+  ShapeDescriptor.vcxproj -> D:\github\ShapeSPH\x64\Release\ShapeDescriptor.pdb (Full PDB)

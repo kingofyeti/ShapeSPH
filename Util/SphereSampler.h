@@ -51,7 +51,7 @@ void SampleSpheres( const CubeGrid< Real >& grid , std::vector< FourierKeyS2< Re
 	{
 		Real radius = ( Real(i+0.5)/radii ) * maxRadius;
 		sphericalHarmonics[i].resize( sphereResolution );
-		grid.SphereSample( &center[0] , radius , sphere , threads );
+		grid.SphereSample( &center[0] , radius , sphere , threads );///.
 		Real scale = Real( sqrt( 4*M_PI*radius*radius ) );
 		Real* _sphere = sphere[0];
 #pragma omp parallel for num_threads( threads )
